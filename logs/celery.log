@@ -1,0 +1,74 @@
+INFO 2025-07-17 03:42:41,771 tasks 5994 140344564878208 Starting flowchart process for healthchecks. Task ID: b3a2ce33-6657-4ad3-867b-a6926bb7b0bb
+INFO 2025-07-17 03:42:41,772 tasks 5994 140344564878208 Cloning https://Poly-Agent-v2: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@github.com/Poly-org/healthchecks.git into /tmp/healthchecks_b3a2ce33-6657-4ad3-867b-a6926bb7b0bb
+INFO 2025-07-17 03:42:43,448 tasks 5994 140344564878208 Repository cloned successfully.
+INFO 2025-07-17 03:42:43,463 tasks 5994 140344564878208 Processing files for flowchart generation.
+INFO 2025-07-17 03:42:43,464 tasks 5994 140344564878208 Processing file: /tmp/healthchecks_b3a2ce33-6657-4ad3-867b-a6926bb7b0bb/demo.py
+INFO 2025-07-17 03:42:47,696 tasks 5994 140344564878208 Generating README.md.
+INFO 2025-07-17 03:42:47,697 tasks 5994 140344564878208 README.md generated.
+INFO 2025-07-17 03:42:47,701 tasks 5994 140344564878208 Pushing to GitHub and creating PR.
+ERROR 2025-07-17 03:42:50,093 tasks 5994 140344564878208 Flowchart generation failed for healthchecks: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository", "status": "404"}
+Traceback (most recent call last):
+  File "/home/praveen/polynomialai/flowchart_ai/api/tasks.py", line 146, in start_flowchart_process
+    github_repo = g.get_user().get_repo(repo_obj.name) # Assuming user owns the repo
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/praveen/polynomialai/flowchart_ai/.env/lib/python3.12/site-packages/github/AuthenticatedUser.py", line 908, in get_repo
+    headers, data = self._requester.requestJsonAndCheck(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/praveen/polynomialai/flowchart_ai/.env/lib/python3.12/site-packages/github/Requester.py", line 651, in requestJsonAndCheck
+    return self.__check(
+           ^^^^^^^^^^^^^
+  File "/home/praveen/polynomialai/flowchart_ai/.env/lib/python3.12/site-packages/github/Requester.py", line 863, in __check
+    raise self.createException(status, responseHeaders, data)
+github.GithubException.UnknownObjectException: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository", "status": "404"}
+INFO 2025-07-17 03:42:50,100 tasks 5994 140344564878208 Cleaned up /tmp/healthchecks_b3a2ce33-6657-4ad3-867b-a6926bb7b0bb
+
+INFO 2025-07-17 03:44:38,987 tasks 5994 140344564878208 Starting flowchart process for healthchecks. Task ID: f8a8c08d-2c2f-4e63-aba6-b47e244e8383
+INFO 2025-07-17 03:44:38,987 tasks 5994 140344564878208 Cloning https://Poly-Agent-v2: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@github.com/Poly-org/healthchecks.git into /tmp/healthchecks_f8a8c08d-2c2f-4e63-aba6-b47e244e8383
+INFO 2025-07-17 03:44:40,596 tasks 5994 140344564878208 Repository cloned successfully.
+INFO 2025-07-17 03:44:40,610 tasks 5994 140344564878208 Processing files for flowchart generation.
+INFO 2025-07-17 03:44:40,611 tasks 5994 140344564878208 Processing file: /tmp/healthchecks_f8a8c08d-2c2f-4e63-aba6-b47e244e8383/demo.py
+INFO 2025-07-17 03:44:46,217 tasks 5994 140344564878208 Generating README.md.
+INFO 2025-07-17 03:44:46,217 tasks 5994 140344564878208 README.md generated.
+INFO 2025-07-17 03:44:46,221 tasks 5994 140344564878208 Pushing to GitHub and creating PR.
+ERROR 2025-07-17 03:44:48,801 tasks 5994 140344564878208 Flowchart generation failed for healthchecks: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository", "status": "404"}
+Traceback (most recent call last):
+  File "/home/praveen/polynomialai/flowchart_ai/api/tasks.py", line 146, in start_flowchart_process
+    org = g.get_organization(ORGANIZATION)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/praveen/polynomialai/flowchart_ai/.env/lib/python3.12/site-packages/github/AuthenticatedUser.py", line 908, in get_repo
+    headers, data = self._requester.requestJsonAndCheck(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/praveen/polynomialai/flowchart_ai/.env/lib/python3.12/site-packages/github/Requester.py", line 651, in requestJsonAndCheck
+    return self.__check(
+           ^^^^^^^^^^^^^
+  File "/home/praveen/polynomialai/flowchart_ai/.env/lib/python3.12/site-packages/github/Requester.py", line 863, in __check
+    raise self.createException(status, responseHeaders, data)
+github.GithubException.UnknownObjectException: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository", "status": "404"}
+INFO 2025-07-17 03:44:48,807 tasks 5994 140344564878208 Cleaned up /tmp/healthchecks_f8a8c08d-2c2f-4e63-aba6-b47e244e8383
+INFO 2025-07-17 03:50:42,404 tasks 6677 139820177812352 Starting flowchart process for healthchecks. Task ID: f6c1ac34-4471-42bb-8373-b9e16447b918
+INFO 2025-07-17 03:50:42,404 tasks 6677 139820177812352 Cloning https://Poly-Agent-v2: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@github.com/Poly-org/healthchecks.git into /tmp/healthchecks_f6c1ac34-4471-42bb-8373-b9e16447b918
+ERROR 2025-07-17 03:50:43,191 tasks 6677 139820177812352 Flowchart generation failed for healthchecks: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --branch=main -- https://*****:*****@github.com/Poly-org/healthchecks.git /tmp/healthchecks_f6c1ac34-4471-42bb-8373-b9e16447b918
+  stderr: 'Cloning into '/tmp/healthchecks_f6c1ac34-4471-42bb-8373-b9e16447b918'...
+remote: Write access to repository not granted.
+fatal: unable to access 'https://github.com/Poly-org/healthchecks.git/': The requested URL returned error: 403
+'
+Traceback (most recent call last):
+  File "/home/praveen/polynomialai/flowchart_ai/api/tasks.py", line 96, in start_flowchart_process
+    repo = Repo.clone_from(repo_url, clone_dir, branch=main_branch.name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/praveen/polynomialai/flowchart_ai/.env/lib/python3.12/site-packages/git/repo/base.py", line 1587, in clone_from
+    return cls._clone(
+           ^^^^^^^^^^^
+  File "/home/praveen/polynomialai/flowchart_ai/.env/lib/python3.12/site-packages/git/repo/base.py", line 1454, in _clone
+    finalize_process(proc, stderr=stderr)
+  File "/home/praveen/polynomialai/flowchart_ai/.env/lib/python3.12/site-packages/git/util.py", line 521, in finalize_process
+    proc.wait(**kwargs)
+  File "/home/praveen/polynomialai/flowchart_ai/.env/lib/python3.12/site-packages/git/cmd.py", line 857, in wait
+    raise GitCommandError(
+git.exc.GitCommandError: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --branch=main -- https://*****:*****@github.com/Poly-org/healthchecks.git /tmp/healthchecks_f6c1ac34-4471-42bb-8373-b9e16447b918
+  stderr: 'Cloning into '/tmp/healthchecks_f6c1ac34-4471-42bb-8373-b9e16447b918'...
+remote: Write access to repository not granted.
+fatal: unable to access 'https://github.com/Poly-org/healthchecks.git/': The requested URL returned error: 403
+'

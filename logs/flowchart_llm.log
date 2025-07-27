@@ -1,0 +1,6 @@
+INFO 2025-07-17 03:42:43,464 llm_utils 5994 140344564878208 Sending request to Gemini model.
+INFO 2025-07-17 03:42:47,680 llm_utils 5994 140344564878208 Received response from Gemini model.
+INFO 2025-07-17 03:42:47,681 llm_utils 5994 140344564878208 Extracted Mermaid code.
+INFO 2025-07-17 03:44:40,611 llm_utils 5994 140344564878208 Sending request to Gemini model.
+INFO 2025-07-17 03:44:46,201 llm_utils 5994 140344564878208 Received response from Gemini model.
+INFO 2025-07-17 03:44:46,202 llm_utils 5994 140344564878208 Extracted Mermaid code.
